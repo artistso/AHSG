@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Magnetic Dipole Field Lines -->
+    <path
+        android:strokeColor="#5C6BC0"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,26 C 24,26 24,82 54,82" />
+    <path
+        android:strokeColor="#5C6BC0"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,26 C 84,26 84,82 54,82" />
+
+    <!-- Outer Magnetic Shell Boundary (R_out) -->
+    <path
+        android:strokeColor="#B388FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,27 A 27,27 0 1 0 54,81 A 27,27 0 1 0 54,27" />
+
+    <!-- Concentric Domain Wall (rho kink) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.0"
+        android:fillColor="#00000000"
+        android:pathData="M 54,37 A 17,17 0 1 0 54,71 A 17,17 0 1 0 54,37" />
+
+    <!-- Central Radiation Core (Middle Light) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 54,47 A 7,7 0 1 0 54,61 A 7,7 0 1 0 54,47" />
+
+    <!-- North Pole Indicator (Amber) -->
+    <path
+        android:fillColor="#FFAB00"
+        android:pathData="M 54,21 L 58,28 L 50,28 Z" />
+
+    <!-- South Pole Indicator (Blue) -->
+    <path
+        android:fillColor="#448AFF"
+        android:pathData="M 54,87 L 50,80 L 58,80 Z" />
+
+    <!-- Radial Axis of Anisotropy -->
+    <path
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,28 L 54,44 M 54,64 L 54,80" />
+</vector>

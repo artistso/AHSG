@@ -1,0 +1,6 @@
+{
+  "name": "AHSG Cosmos Lab",
+  "description": "Theoretical companion and simulation laboratory for the Anisotropic Higgs-Soup Genesis cosmological model.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
